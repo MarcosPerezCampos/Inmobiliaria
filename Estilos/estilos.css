@@ -1,0 +1,208 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "section"
+    "footer"
+    ;
+}
+@media (min-width:320px){
+
+    header{
+        display: grid;
+        grid-template-columns: 1fr 4fr ;
+        width: 100%;
+        height: 100%;
+        background-image: url(../Fotos/blue-and-yellow-mansion.webp);
+        background-repeat: no-repeat;
+        background-position: center bottom -40px;
+        background-size: 115%;
+    }
+    
+    .logo {
+        width: 110%;
+        position: relative; left: 3%;
+        margin: 0%;
+        
+    }
+    .nav1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    li{
+        display: inline;
+        position: relative; 
+        font-size: 75%;
+    }
+    a{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-decoration: none;
+        font-weight: bold;
+        position: relative; bottom: -25%;
+        color: white;
+    }
+    
+    
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-color: #219ebc;
+        }
+    .textoInicio{
+        font-size: 275%;
+        margin-top: 2%;
+        
+    }
+    .textoInicio2{
+        font-size: 221%;
+        color: #f0c454;
+        margin-top: 2%;
+    }
+    .texto1{
+        font-size: 80%;
+        color: #dbdbdb;
+        margin-top: 1%;
+    }
+    
+    .imagen1{
+        width: 115%;
+        position: relative; bottom: -5%; left: -8%;
+        
+    }
+    
+    .fondo1{
+        display: grid;
+        grid-template-rows: 1fr 2fr;
+        background-color: #219ebc;
+        
+    }
+    
+    .carrusel{
+        width: 100%;
+        position: relative; left: 0%;
+        
+    }
+    
+    .texto2{
+        font-size: 200%;
+        color:black;
+        margin-top: 5%;
+    }
+    
+    footer{
+        width: 100%;
+        height: 150%;
+        background-image: url(../Fotos/blue-and-yellow-mansion.webp);
+        background-repeat: no-repeat;
+        background-position: center bottom -40px;
+        background-size: 165%;
+    }
+}
+
+@media (min-width:1200px){
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 4fr ;
+    width: 100%;
+    height: 100%;
+    background-image: url(../Fotos/blue-and-yellow-mansion.webp);
+    background-repeat: no-repeat;
+    background-position: center bottom -40px;
+    background-size: 112%;
+}
+
+.logo {
+    width: 50%;
+    position: relative; left: 30%;
+    margin: 0%;
+    
+}
+.nav1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+li{
+    display: inline;
+    position: relative; 
+    font-size: 200%;
+}
+a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative; bottom: -30%;
+    color: white;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #219ebc;
+    }
+.textoInicio{
+    font-size: 500%;
+    margin-top: 7%;
+    
+}
+.textoInicio2{
+    font-size: 300%;
+    color: #f0c454;
+    margin-top: 10%;
+}
+.texto1{
+    font-size: 80%;
+    color: #dbdbdb;
+    margin-top: 1%;
+}
+
+.imagen1{
+    width: 87%;
+    height: auto;
+    position: relative; left: 13%; bottom: 0%;
+}
+
+.fondo1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #219ebc;
+    
+}
+
+.carrusel{
+    width: 100%;
+    position: relative; left: 0%;
+    
+}
+
+.texto2{
+    font-size: 230%;
+    color:black;
+    margin-top: 10%; margin-left: 6%;
+}
+
+footer{
+    width: 100%;
+    height: 135%;
+    background-image: url(../Fotos/blue-and-yellow-mansion.webp);
+    background-repeat: no-repeat;
+    background-position: center bottom -40px;
+    background-size: 165%;
+}
+
+}
+
